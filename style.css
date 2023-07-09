@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Almarai', sans-serif;
+}
+
+@keyframes animation {
+    0%{ 
+        opacity: 0.4;
+
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.background {
+    box-sizing: border-box;
+    background: url(./src/assets/genshin-bg.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    height: 100vh;
+
+}
+
+
+
+.content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+
+}
+
+.logo {
+    width: 296px;
+    height: 152px;
+
+}
+
+.tittle {
+    text-align: center;
+    color: white;
+    border-bottom: 2px solid white;
+
+}
+
+
+.character-select img {
+    width: 123px;
+    height: 195px;
+    border-bottom: 5px solid #ffffff;
+    margin: 0 8px;
+    border-radius: 4px;
+    
+}
+
+.character-select img:hover {
+    cursor:pointer;
+    box-shadow: 0px 0px 24px 5px white;
+}
+
+.character-details img {
+    width: 430px;
+    height: 430px;
+    
+
+}
+
+.animation {
+    animation: animation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
+}
+
+.character-details {
+    max-width: 430px;
+
+}
+
+.text {
+    word-wrap: break-word;
+    color: white;
+
+
+}
+
+.toy{
+    text-align: center;
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+footer {
+    color: white;
+    margin-top: 100px;
+    font-weight: bold;
+
+}
+
+h3 {
+    font-size: 14px;
+
+}
